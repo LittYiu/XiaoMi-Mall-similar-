@@ -1,0 +1,82 @@
+/*清除样式*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,input,a,p,textarea{
+    margin: 0;
+    padding: 0;
+}
+
+ul,ol,li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link,a:visited{
+    color:#000;
+}
+
+a:hover{
+	color: #000;
+	text-decoration: none;
+}
+
+img{
+    border: none;
+    /*display: block;*/
+}
+
+/*清除浮动*/
+.clearfloat:after{
+    display: block;
+    clear: both;
+    content: "";
+    visibility: hidden;
+    height: 0;
+}
+.clearfloat{
+    /*clear: both;*/
+    zoom: 1;
+}
+.w-60{
+	width: 60%;
+}
+.w-30{
+	width: 30%;
+}
+.w-40{
+	width: 40%;
+}
+.lay{
+	width: 1226px;
+	margin: 0 auto;
+}
+.font-22{
+	font-size: 22px;
+}
+.font-16{
+	font-size: 16px;
+}
+.font-14{
+	font-size: 14px;
+}
+.font-12{
+	font-size: 12px;
+}
+.weight-300{
+	font-weight: 300;
+}
+.ptd-10{
+	padding: 10px 0;
+}
+.comeup{
+	transform: perspective(500px) translateZ(0px);
+}
+.comeup:hover{
+	transform: perspective(500px) translateZ(10px);
+	box-shadow: 0 3px 10px 1px #ddd;
+	transition: .5s;
+}
+.colorf670{
+	color: #FF6700;
+}
